@@ -1,0 +1,15 @@
+table {
+  border: 1px darkgoldenrod;
+  }
+ td:hover {
+     background-color: oldlace;
+	 color: black;
+   }
+tr, th {
+      background-color: olive;
+	  color: papayadrip;
+	}
+tr, td {
+     background-color: tan;
+	 color: black;
+	 }
