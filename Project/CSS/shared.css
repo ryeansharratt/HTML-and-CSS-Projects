@@ -30,7 +30,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
+    color: #0e0606;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
@@ -39,14 +39,14 @@ h1::after { /*This is the underline */
     content: "";
     height: 2px;
     width: 150px;
-    background: #E91C1C;
+    background: #120808;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2 {
     line-height: 50px;
-    color: #E91C1C;
+    color: #0c0606;
 }
 
 h3 {
@@ -136,7 +136,7 @@ section {
     position: fixed;
     z-index: 100;
     /*background-color: rgba(255,255,255,0.5);*/
-
+}
 /*------------------------------------------------
   HOME SECTION STYLES
   -----------------------------------------------*/
@@ -200,23 +200,23 @@ CONTACT STYLES
 }
 
 .reservation h2 {
-    width: 70%;
+    width: 65%;
     text-align: center;
     margin: 0 auto;
     color: #13161B;
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.2em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
 
 .reservation h2 span {
-    width: 70%;
+    width: 65%;
     text-align: center;
     margin: 0 auto;
     color: #13161B;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 3em;
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing: .3pt;
@@ -232,7 +232,7 @@ CONTACT STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8D8E8F;
+    color: #eff0e8;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
@@ -269,7 +269,7 @@ CONTACT STYLES
 }
 
 .terms:hover {
-    color: orange;
+    color: rgb(5, 4, 3);
     text-decoration: underline;
 }
 

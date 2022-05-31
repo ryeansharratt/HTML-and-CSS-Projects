@@ -2,7 +2,7 @@
 MENU SECTION ANIMATION
 -------------------------*/
 .menu {
-    color: #f0D;
+    color: rgb(132, 152, 132);
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -19,7 +19,7 @@ MENU SECTION ANIMATION
     margin: 0% auto;
     position: relative;
     padding: 15px 4%;
-    border: 1px solid #9D9FA2;
+    border: 1px solid #515870;
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
     border-radius: 6px;
     /*background-color: #052136;*/
@@ -31,7 +31,7 @@ MENU SECTION ANIMATION
 }
 
 .menu li:hover {
-    color: #f0D;
+    color: rgb(138, 162, 145);
     background-color: rgba(100,65,0,.3);
 }
 
@@ -46,7 +46,7 @@ GALLERY SECTION ANIMATION
     border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40;
-    background-color: #ff0;
+    background-color: rgb(241, 241, 233);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
 }
 
@@ -78,7 +78,7 @@ GALLERY SECTION ANIMATION
 }
 
 .white-head {
-    color: #C9BDAA;
+    color: #c0b7ae;
     margin-top: 5%;
 }
 
