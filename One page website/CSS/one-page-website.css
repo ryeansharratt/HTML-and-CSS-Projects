@@ -1,0 +1,32 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.heading {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: large;
+     text-align: center;
+}
+
+ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    text-align: left;
+}
+
+#book {
+    border-bottom: 2px solid black;
+    padding: 0%;
+    text-align: center;
+}
+
+/* Form input settings */
+
+.rsvp {
+ width: 50%;
+ margin: 8px 0;
+ border: 2px solid black;
+ border-radius: 4px;
+}
