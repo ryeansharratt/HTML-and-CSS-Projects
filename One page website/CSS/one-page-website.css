@@ -12,8 +12,17 @@ body {
 
 ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: small;
+    font-size: medium;
     text-align: left;
+}
+
+#olive {
+    row: "flex"
+}
+
+.img {
+    float: left;
+    padding: 5px;
 }
 
 #book {

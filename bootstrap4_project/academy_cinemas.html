@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academy Cinemas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link text-light" aria-current="page" href="#About">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#Deals">Deals</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary text-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid bg-info text-center">
+          <div class="container">
+              <h1 class="display-4 text-light">Academy Cinemas</h1>
+              <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
+          </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm">
+        
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            
+            <img class="img-fluid" src="./img/pdx.jpg" alt=""/>
+
+          </div>
+          <div class="col-sm">
+             <h3 id="About">Accommodations</h3>
+             <p>Located in beautiful Portland, Oregon's Pearl District, our reels have been spinning since 1959.</p>
+             <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
+             <p>All of our auditoriums are equipped with brand new Christie3D&reg; sound systems!</p>
+             <p>Relax in our extra-widem plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
+            
+          </div>
+          <div class="col-sm">
+        
+            <h3>Now Playing</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <a class="nav-link" href="#">Beauty and the Beast</a>
+            </li>
+                <li class="list-group-item">
+                  <a class="nav-link" href="#">Top Gun</a>
+            </li>
+                <li class="list-group-item">
+                  <a class="nav-link" href="#">The Man from U.N.C.L.E</a>
+            </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+        <!-- showtimes -->
+        <h2 id="Showtimes">Showtimes</h2>
+        <div class="card-group d-flex justify-content-center" style="width: 100%;">
+          <div class="card">
+           <style> img {
+              width: 200px; /*Dimensions of images in cards*/
+              height: 200px;
+              object-fit: cover;
+          }
+          </style>
+            <img src="./Img/beautyandthebeast.jpg" class="card-img-top" alt="Beauty and The Beast movie">
+            <div class="card-body">
+              <h5 class="card-title">Beauty and The Beast</h5>
+              <p>A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a woman he keeps as prisoner</p><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">1:30 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">3:00 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">5:30 pm</span></button><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">8:30 pm</span></button>
+             
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Img/14MAN-superjumbo.jpg" class="card-img-top" alt="The Man from U.N.C.L.E movie">
+            <div class="card-body">
+              <h5 class="card-title">The Man from U.N.C.L.E</h5>
+              <p>In an unlikely alliance, a CIA agent, Napoleon Solo and KGB agent, Illya Kuryakin, band together to save the world from nuclear disaster. A top nuclear scientist, formerly employed by the US, has gone missing. It is suspected his brother has kidnapped him to work on a nuclear bomb.</p><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">1:30 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">3:00 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">6:30 pm</span></button><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">9:00 pm</span></button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Img/tom-cruise-top-gun-mainer-1.jpg" class="card-img-top" alt="Top Gun movie">
+            <div class="card-body">
+              <h5 class="card-title">Top Gun</h5>
+              <p>Code-named Maverick, Pete Mitchell, an impetuous, daredevil Navy-pilot ace, is accepted into Top Gun, Miramar's elite Fighter School. But there, the impulsive young pilot will have to compete with the best of the best, including Iceman, a brilliant and highly competitive fellow student.</p><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">1:30 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">3:00 pm</span></button>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">5:30 pm</span></button><br><br>
+              <button type="button" class="btn btn-primary"><span class="badge pill-badge-primary">8:30 pm</span></button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <!-- /showtimes -->
+      
+
+
+       <div class="text-center">
+                <form>
+                    <h1 class="text-primary my-5" id="Deals">Sign up for Movie Club Rewards!</h1>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+    </div>
+
+    <div class="container my-5">
+        <ul class="nav nav-inline">
+            <li class="nav-item">
+                <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+            </li>
+            <li class="nav-item">
+                <small><a class="nav-link" href="#">Movies@news.org</a></small>
+            </li>
+            <li class="nav-item">
+                <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
+            </li>
+            <li class="nav-item">
+                <small class="nav-link" href="#">&copy;2019 Academy Cinemas&reg;</small>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>>
