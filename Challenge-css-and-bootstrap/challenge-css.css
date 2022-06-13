@@ -1,0 +1,141 @@
+@media  screen and (max-width:600px) {
+    body {
+        background-color: olive;
+    }
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+p:hover {
+    background-color: #ddd;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    color: rgb(63, 62, 62);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 5%;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    background-color: rgb(214, 214, 210);
+}
+
+.video {
+    position: relative;
+  text-align: center;
+  color: black;
+}
+
+.center-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(19, 10, 10);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 28%;
+    color: white;
+}
+
+img {  /*rounded corners*/
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+.center {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .center {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #29463b;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }

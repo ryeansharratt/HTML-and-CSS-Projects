@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <!--head-->
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width"/>
+      <title>Ryean Sharratt</title>
+      <link rel="stylesheet" type="text/css" href="./personal-portfolio.css">
+  </head>
+
+  <!--body-->
+  <body class="Background">
+
+      <!--navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!---breaks for space-->
+    <br>
+    <br>
+
+    <!--background video-->
+       <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./Images/typing-vid.mp4" type="video/mp4">
+                <!--alt message-->
+                Your browser does not support HTML5 video.
+            </video>
+       </div>
+
+    <!--video text-->
+    <div class="Video_Text">
+        <h1 class="white-text">Ryean Sharratt's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <br>
+                <br>
+                <q>Creative. Impactful. Development.</q>
+                <br>
+                <br>
+                <br>Hey, I'm Ryean
+                <br>Thank you for stopping by my portfolio, enjoy!
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+        </strong>
+    </div>
+
+    <!--about section-->
+    <div class="row" id="About">
+        <!--left column-->
+        <div class="Column_2">
+            <img src="./Images/person-typing-coding.jpg" alt="Person coding">
+        </div>
+        <!--right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a full-stack junior software and web developer, and would love to collaborate with you! 
+                <br>
+                <br>A graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, I've come to love problem solving and building, and am experienced in these web & programming languages: HTML, CSS, Javascript, SQL, C#, .NET framework, and more.
+                <br>
+                <br>When I'm not behind a computer you'll find me outdoors loving my central Alberta backyard. <a href="#Contact">Reach out</a> below!
+            </p>
+        </div>
+    </div>
+
+    <!--github section-->
+    <div class="row" id="GitHub">
+        <!--left column-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                View my projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/ryeansharratt" target="_blank">Ryean's GitHub</a></p>
+            </p>
+        </div>
+        <!--right column-->
+        <div class="Column_2">
+            <a href="https://github.com/ryean-sharratt" target="_blank"><img src="./images/coding-page.jpg" alt="Coding"></a>
+        </div>
+     </div>
+
+     <!--contact section-->
+     <div class="row" id="Contact">
+        <!--contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="./images/tech-flatlay.jpg" alt="Contact image">
+        </div>
+        <!--contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--specifies how and where to send form data; leaving it blank-->
+            <form action="https://formspree.io/f/mpzbnlgo" method="POST"> <!--using third party service to submit form data-->
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="What can I help you with?">
+                    <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+     </div>
+ 
+     <!--footer section-->
+     <footer>
+        <p>
+            <p class="center">&copy Ryean's Web Services & Co.</p>
+            <br>
+        </p>
+    </footer>
+  </body>
+</html>
