@@ -4,6 +4,7 @@
 	  <meta charset="utf-8">
 	  <title>Olive the Camper - Rental</title>
 	  <link rel="stylesheet" type="text/css" href="./CSS/one-page-website.css">
+	  <script src="JS/one_page_website.js"></script>
 	 </head>
 	  <body>
 	  
@@ -32,43 +33,71 @@
 	  </div>
 	<!--END-NAV-->
 	
-	<!--GALLERY-->
-    <section>
-        <div id="olive">
-            <h1>Photos</h1>
-            <div>
-		<!--PHOTO-CONTAINER 1-->
-		 <div>
-		    <div>
-			   <img src="images/IMG_4178.jpeg" alt="Olive interior">
-			</div>
-		 </div>
-		<!--END-CONTAINER 1-->
-		
-		<!--PHOTO-CONTAINER 2-->
-		  <div>
-		     <div>
-			    <img src="images/IMG_6016.jpeg" alt="Olive interior">
-			 </div>
+	<div class="row">
+		<div class="column">
+		  <img src="images/IMG_4178.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		</div>
+		<div class="column">
+		  <img src="images/IMG_6016.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+		</div>
+		<div class="column">
+		  <img src="images/IMG_6033.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+		</div>
+	  </div>
+
+
+
+
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		  <div class="mySlides">
+			<div class="numbertext">1 / 3</div>
+			<img src="images/IMG_4178_wide.jpeg" style="width:100%">
 		  </div>
-		<!--END-CONTAINER 2-->
-		
-		<!--PHOTO-CONTAINER 3-->
-		  <div>
-		     <div>
-                 <img src="images/IMG_6033.jpeg" alt="Olive interior">
-             </div>            
+	  
+		  <div class="mySlides">
+			<div class="numbertext">2 / 3</div>
+			<img src="images/IMG_6016_wide.jpeg" style="width:100%">
 		  </div>
-		<!--END-CONTAINER 3-->	
-        </div>
-      </div>
-    </section>	  
-    <!--END-GALLERY-->
+	  
+		  <div class="mySlides">
+			<div class="numbertext">3 / 3</div>
+			<img src="images/IMG_6033_wide.jpeg" style="width:100%">
+		  </div>
+	  
+		  <!-- Next/previous controls -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+		  <!-- Caption text -->
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+	  
+		  <!-- Thumbnail image controls -->
+		  <div class="column">
+			<img class="demo cursor" src="images/IMG_4178.jpeg" onclick="currentSlide(1)" alt="Nature">
+		  </div>
+	  
+		  <div class="column">
+			<img class="demo cursor" src="images/IMG_6016.jpeg" onclick="currentSlide(2)" alt="Stay here!">
+		  </div>
+	  
+		  <div class="column">
+			<img class="demo cursor" src="images/IMG_6033.jpeg" onclick="currentSlide(3)" alt="Mountains">
+		  </div>
+		</div>
+	  </div>
+<br>
+<br>
+
 	
 	    <!--VIDEO CONTAINER-->
 		<section>
-		   <div id="outdoors">
-		   <h1>Explore</h1>
+		   <div class="explore">
+		   <h1 class="first-txt">Explore</h1>
 			     <iframe width="560" height="315" src="https://www.youtube.com/embed/I61VrHcafaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 				 </iframe> 
 		  </div>
@@ -97,8 +126,8 @@
 	        <label class="terms">Terms and Conditions</label>
 			</div>
 		   <div> 
-		   <input type="submit" value="Submit"
-		  </div>
+		   <input type="submit" value="Submit">
+		   </div>
 		 </form>
 		</div>
 	   </div>
